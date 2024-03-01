@@ -1,6 +1,38 @@
-h1{
-    background-color: black;
-    color: white;
-    text-align: center;
-    display: block;
+body{
+    height: 100vh;
+}
+
+header{
+    height: 30%;
+    position: relative;
+    background-color: red;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.txt{
+    position: relative;
+    outline: none;
+    border: none;
+    width: 50rem;
+    height: 2rem;
+    background-color: transparent;
+    padding-left:2rem;
+    font-size: 1rem;
+}
+
+.d-txt{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.search{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
